@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('../node_modules/bootstrap/dist/css/bootstrap.min.css');
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:#007bff;
+  color: white;
+  padding: 0px 25px;
+  font-size: large;
+  cursor: pointer;
+}
+
+.sidebar {
+  background-color: lightgray;
+  height: 100vh;
+  width: 100%;
+  max-width: 15%;
+  padding-top: 20px;
+}
+
+.sidebar ul li {
+  list-style: none;
+  margin-bottom: 30px;
+  margin-left: 30px;
+  font-weight: 500;
+  font-size: medium;
+  cursor: pointer;
+}
+
+.Menu {
+  display: flex;
+}
+
+.login,
+.register,.firm,.product{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+}
+
+.login {
+  margin-top: -200px;
+}
+
+.register {
+  margin-top: -160px;
+}
+
+.firm{margin-top:-55px;}
+
+.form-container,
+.form-container1,.form-container2,.form-container3 {
+  border: 1px solid black;
+  width: 100%;
+  max-width: 30%;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.form-container {
+  height: 40vh;
+}
+
+.form-container1 {
+  height: 55vh;
+}
+
+.form-container2{
+  height: 87vh;
+  max-width: 40%;
+}
+.radio-group,
+.checkbox-group {
+  display: flex;
+  gap: 20px;
+}
+
+.radio-group label,
+.checkbox-group label {
+  margin-left: 10px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+.form-container3
+{
+  height: 96vh;
+  max-width: 40%;
+}
+textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  resize: none; 
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+textarea:focus {
+  border-color: #007bff; 
+  outline: none;
+}
+.password-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.password-toggle-icon {
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+  font-size: 15 px;
+  color:rgba(0, 0, 0, 0.5)
+}
+
+.password-toggle-icon:hover {
+  color:black
+}
+
+.form-control {
+  padding-right: 40px; 
+}
+.products-container {
+  width: 80%;
+  margin: 20px auto;
+}
+
+.firmname-container {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.table-container {
+  width: 100%;
+}
+
+.product-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.product-table th, .product-table td {
+  text-align: center;
+  padding: 10px;
+}
