@@ -109,7 +109,7 @@ const Add_Product = ({firmHandler}) => {
             Price:
           </label>
           <input
-            type="number"
+            type="text"
             placeholder="Price"
             className="form-control"
             name="price"
