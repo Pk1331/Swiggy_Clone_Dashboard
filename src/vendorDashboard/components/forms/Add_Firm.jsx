@@ -52,7 +52,7 @@ const Add_Firm = ({ loginhandler,productHandler, handleFirmRegistration}) => {
       for (const key in firm) {
         formData.append(key, firm[key]);
       }
-
+      
       const res = await fetch(`${API_Url}/firm/add-firm`, {
         method: "POST",
         headers: {
